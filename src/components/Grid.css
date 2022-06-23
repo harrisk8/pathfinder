@@ -1,0 +1,163 @@
+.grid {
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4481eb;
+  border-radius: 10px;
+	animation: gradient 25s ease infinite;
+  background-size: 300% 300%;
+
+}
+
+.node-div {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  text-align: center;
+  height: auto;
+  width: auto;
+
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  color: white;
+  margin-bottom: 15px;
+  height: auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 5vh;
+	animation: gradient 25s ease infinite;
+  background-size: 400% 400%;
+  
+}
+
+
+.find-path {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(228, 228, 228);
+  display: block;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 15vh;
+  height: 4vh;
+  border-radius: 7px;
+  border-width: 2px;
+}
+
+.btn-hover {
+  width: 20vh;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 5vh;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  display: block;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-9 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.reset {
+  background: linear-gradient(-45deg, #c55836,  #ee7752, #e73c7e, #ce0c56);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+	animation: gradient 5s ease infinite;
+  background-size: 200% 200%;
+  border-radius: 50px;
+  width: 15vh;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 4vh;
+  text-align:center;
+  border: none;
+  display: block;
+}
+
+#slogan {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2vh;
+  font-style: italic;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+.instructions-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 4vh;
+  margin-top: 3vh;
+  padding-top: 0px;
+  color: white;
+}
+
+ul {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: table;
+  margin: auto;
+  margin-bottom: 10vh;
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 2vh;
+  color: white;
+}

@@ -1,0 +1,12 @@
+This is the second iteration of the project. First one was scratched due to poor design.
+
+Architecture is as follows:
+    1) 'Grid' component is main component where all functionality happens
+        Grid is stored as an 2-d array of objects. Each of these objects is mapped to a
+        Node component
+    2) 'Grid' component is structurally made from 'Node' components
+    
+
+Algorithm is as follows:
+    1) Call function and pass in grid, start and end nodes
+    2) 
